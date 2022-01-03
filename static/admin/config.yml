@@ -222,6 +222,11 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+          - label: "Footer Background Color"
+            name: "footerColor"
+            widget: "color"
+            enableAlpha: true
+            allowInput: true
       - label: "Dark Theme"
         name: "darkthemescolors"
         file: "src/util/dark-theme-colors.json"
