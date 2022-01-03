@@ -217,6 +217,11 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+          - label: "Text Color"
+            name: "fontColor"
+            widget: "color"
+            enableAlpha: true
+            allowInput: true
       - label: "Dark Theme"
         name: "darkthemescolors"
         file: "src/util/dark-theme-colors.json"
