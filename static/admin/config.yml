@@ -38,6 +38,10 @@ collections:
           widget: "string",
           hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
         }
+      -   label: "Tags"
+          name: "tags"
+          hint: "Please separate your tags with a comma"
+          widget: "list"
       - {
           label: "Publish Date",
           name: "date",
