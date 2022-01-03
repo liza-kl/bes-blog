@@ -1,12 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: "Jane Doe "
+tagline: Language Teacher
+featuredImage: /assets/people-age-free-time-concept-glad-senior-female-pension-writes-list-her-blue-notepad.jpg
 cta:
-  ctaText: Know more
+  ctaText: Want to know more about me?
   ctaLink: /about
 ---
-
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Your One Stop for all Business Questions
