@@ -16,8 +16,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               slug
               template
               title
+              tags
             }
           }
+        }
+      }
+        tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
         }
       }
     }

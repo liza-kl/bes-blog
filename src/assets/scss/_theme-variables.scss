@@ -5,14 +5,15 @@ $breakpoint-lg: 1022px;
 $breakpoint-xl: 1200px;
 
 :root {
-  --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+  --font-family: Playfair Display, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --font-family-text: avenir;
   --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
     monospace;
   --font-size-small: 12px;
 
-  --home-link-color: #d4d4d4;
-  --home-link-hover-color: var(--primary-color);
+  //--home-link-color: #d4d4d4;
+  //--home-link-hover-color: var(--primary-color);
 
   --button-color: #e5c3d3;
   --button-alternate-color: #5c2941;

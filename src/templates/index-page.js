@@ -25,6 +25,7 @@ import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -212,7 +213,7 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <Link
+          <AniLink fade hex="#5C2941"
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
@@ -223,7 +224,7 @@ const HomePage = ({ data }) => {
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
-          </Link>
+          </AniLink>
           <div
             className="social-icons"
             sx={{

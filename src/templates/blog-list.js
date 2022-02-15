@@ -48,6 +48,7 @@ export const blogListQuery = graphql`
     }
   }
 `
+
 const Pagination = props => (
   <div className="pagination" sx={styles.pagination}>
     <ul>

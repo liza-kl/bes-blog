@@ -2,15 +2,18 @@ import defaultColors from "../util/default-colors.json"
 import darkColors from "../util/dark-theme-colors.json"
 import { lightness } from "@theme-ui/color"
 const theme = {
+  config: {
+    initialColorModeName: 'Light',
+  },
   colors: {
     ...defaultColors,
     text: "#0e1111",
     background: "#fff",
-    primary: "#5C2941",
+    primary: "siteColor",
     accent: "#fff",
     muted: "rgba(0, 0, 0, 0.7)",
     cardBg: "#fff",
-    borderColor: "#540229",
+    borderColor: "siteColor",
     labelText: "#777",
     inputBorder: "#aaa",
     inputBackground: "#fff",
